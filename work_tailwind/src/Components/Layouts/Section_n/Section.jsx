@@ -1,9 +1,10 @@
-import React from 'react'
+import {React} from 'react'
 
 export const Section = () => {
   return (
-    <div>
-        Section
-    </div>
+            <div className="p-20 w-full">
+
+          </div>
+    
   )
 }
