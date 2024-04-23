@@ -1,6 +1,6 @@
-import img2 from "../assets/Kimetsu.jpg"
-import img3 from "../assets/Mutsoku.jpg"
-import img4 from "../assets/Jujutsu.jpg"
+import img2 from "../assets/imgs/kimetsu.jpg"
+import img3 from "../assets/imgs/mutsoku.jpg"
+import img4 from "../assets/imgs/jujutsu.jpg"
 
 
 export const news = [
