@@ -2,6 +2,8 @@ import React from "react"
 import { Header } from "./Components/Layouts/Header/Header"
 import { News } from "./Components/Layouts/News_s/News"
 import { Section } from "./Components/Layouts/Section_n/Section"
+import { news } from "./Scripts/News"
+import { New_card } from "./Components/Layouts/New_card/New_card"
 
  
 export const App = () => {
@@ -14,7 +16,16 @@ export const App = () => {
     </Header>  
     <div className='flex'>
       <News/>
-      <Section/>
+      <Section>
+            {news.map(news => <New_card
+              key = {news.id}
+              image = {news.img}
+              title = {news.title}
+              date = {news.date}
+              p = {news.p}/>
+              )
+              }
+      </Section>
     </div>   
     
     </>
