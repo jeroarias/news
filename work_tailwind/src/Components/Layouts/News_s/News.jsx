@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../../../public/imgs/kaiju.jpg'
+import img1 from '../../../assets/imgs/kaiju.jpg'
 
 export const News = ()  => {
   return (

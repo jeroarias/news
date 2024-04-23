@@ -17,14 +17,15 @@ export const App = () => {
     <div className='flex'>
       <News/>
       <Section>
+        <div className="bg-gray-400 p-5 rounded-lg ">
             {news.map(news => <New_card
               key = {news.id}
               image = {news.img}
               title = {news.title}
               date = {news.date}
-              p = {news.p}/>
-              )
-              }
+              p = {news.text}/>
+              )}
+          </div>
       </Section>
     </div>   
     
