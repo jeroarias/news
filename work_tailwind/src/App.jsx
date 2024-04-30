@@ -14,10 +14,11 @@ export const App = () => {
               ANIME NEWS
           </h1>
     </Header>  
-    <div className='flex'>
+    <div className='flex pt-20'>
       <News/>
+    
       <Section>
-        <div className="bg-gray-400 p-5 rounded-lg ">
+          <div className="rounded-lg h-[30%] flex flex-col gap-12">
             {news.map(news => <New_card
               key = {news.id}
               image = {news.img}
@@ -25,9 +26,10 @@ export const App = () => {
               date = {news.date}
               p = {news.text}/>
               )}
-          </div>
+            </div>
       </Section>
-    </div>   
+      </div>
+       
     
     </>
   )

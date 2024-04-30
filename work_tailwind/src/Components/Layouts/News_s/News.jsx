@@ -3,8 +3,8 @@ import img1 from '../../../assets/imgs/kaiju.jpg'
 
 export const News = ()  => {
   return (
-          <div className="p-20 w-full ">
-            <div>
+          <div className="ml-20 w-[45%] ">
+            <div className='w-[40rem] h-[50rem]'>
             <img className=" w-[40rem] h-[45rem] rounded-t-lg" src={img1}  alt="develop" />
               <div className=" w-[40rem] bg-gray-400 p-3 rounded-b-lg ">
                 <h4 className="text-gray-700">

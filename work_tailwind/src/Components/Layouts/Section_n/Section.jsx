@@ -2,7 +2,7 @@ import {React} from 'react'
 
 export const Section = ({children}) => {
   return (
-            <div className="p-20 w-full">
+            <div className="mr-20 w-[55%]">
              
               {children}
               
